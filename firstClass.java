@@ -1,3 +1,42 @@
+
+// this is is important thing in java you should know
+
+        HashMap<Integer, Integer> store = new HashMap<>();   // this like set in python  or js 
+        ArrayList<Integer> Array = new ArrayList<>();        // this is like normal list in pyhton or js like this []
+        ArrayList<Object> myList = new ArrayList<>();  // this is how define an object in java   this like js =>    const app  ={  name : "ghaith",age:33} 
+        ArrayList<Person> ListOfPerson = new ArrayList<>();  // this is list of object the simualtion this in js or python is  like this    [ {}  , {} , {}]
+        class Person  {
+            String name;                                    //  this in pyhton like this  class Person():  
+             int age ;                                                                     def __init(self,name,age)
+                                                                                               self.name = name , self.age = age 
+          Person(String name,int age){                                                        
+             this.name = name;
+              this.age  = age;
+
+          }    
+    
+   
+        }  
+
+//  and instance of this like if you wanna to send object in ArrayList should be  define the object and then do this
+//  mylist.aadd(new Person("ghaith",33));
+// and this gonna working like =>><<
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import java.util.HashMap;
 import java.util.ArrayList;
 
