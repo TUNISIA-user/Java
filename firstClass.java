@@ -1,4 +1,22 @@
 
+// © 2025 Gaith. All rights reserved.
+// Source: https://github.com/TUNISIA-usery/firstClass.java
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // this is is important thing in java you should know
 
         HashMap<Integer, Integer> store = new HashMap<>();   // this like set in python  or js 
