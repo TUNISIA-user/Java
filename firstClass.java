@@ -25,8 +25,8 @@
         ArrayList<Person> ListOfPerson = new ArrayList<>();  // this is list of object the simualtion this in js or python is  like this    [ {}  , {} , {}]
         class Person  {
             String name;                                    //  this in pyhton like this  class Person():  
-             int age ;                                                                     def __init(self,name,age)
-                                                                                               self.name = name , self.age = age 
+             int age ;                                                                   //   def __init(self,name,age)
+                                                                                             //   self.name = name , self.age = age 
           Person(String name,int age){                                                        
              this.name = name;
               this.age  = age;
@@ -41,15 +41,58 @@
 // and this gonna working like =>><<
 
 
+// methode java for items in top 
+// so we have this like for test item (key,value) in the HashMap we Map.containsKey()  or containsvalue() 
+// if you wanna do insertion in sidet to their methode called set()  how this working so this => Map.set(key,value)
+
+
+
+// for the Array  you have methode like append in pyhton its Array.add( <value> if this was class like this add the value new Person(and here pass your @params));
+
+
+// in the object Object   like the bfore  should be do Array.add("ghaiht)  :Array.add(22);Array.add("software enginner");
+
+
+// and the last one its Array type Person    and this prettey easy you can sipmly do this Array.add(new Person("ghaith",33)) ;  
+
+// and in the end i wanna shoow all peopl somehting if   in your mind  you wanna do sort in  table you can  use built in function but this if their exisit this built in function
+ // so i suggested to  create your owen methode for do sort and you methode for do  dispaly  cauz the System.out.println(<value>)  its very hard to paste it each tim do i wanna this
+// so  firsteval we gonna start how do sort so use bubble sort its east but the truc here
+// do var type person like this Person  temp = ListOfpeople.get(i) and i assume i index 0
+// and then ListOfpeople.set(i,listOfpeople.get(i+1))
+// and then ListOfpeople.set(i+1,aux)
+so this in python fucking funny  its like this 
+        a = 3
+        n = 4
+        // just you do tis
+        a,n = n,a 
+        // or method algorithms you can do just this
+        temp =a
+        a = n
+        n = temp;
+
+// know i would talk about create are function print what you want of the data
+// you should do th is static  <T> void(T value ) {
+ System.out.println(value);
+
+} 
 
 
 
 
+// this is for object and array  smart ways
 
+import java.util.Arrays;
 
-
-
-
+static void say(Object value) {
+    if (value instanceof Object[]) {
+        System.out.println(Arrays.deepToString((Object[]) value));
+    } else if (value instanceof int[]) {
+        System.out.println(Arrays.toString((int[]) value));
+    } else {
+        System.out.println(value);
+    }
+}
 
 
 
