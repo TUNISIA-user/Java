@@ -1,0 +1,18 @@
+ 
+import java.util.*;
+
+ 
+public class Grook {
+  
+  
+     public static void main(String[] args){ 
+         
+    
+        int n = 31;
+        switch(n){
+             case 1  -> System.out.println("hello");
+             default ->  System.out.println("Sorry  404 not found");  
+        }
+        
+    }
+}
