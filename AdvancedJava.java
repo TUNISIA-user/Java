@@ -1,4 +1,4 @@
-   class Person{
+    class Person{
     int age;
     String name;
     boolean active;
